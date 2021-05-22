@@ -42,3 +42,9 @@ local.properties
 .loadpath
 *.pub
 *.iml
+
+#################
+## MAC
+#################
+
+.DS_Store
