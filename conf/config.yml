@@ -1,0 +1,18 @@
+server:
+  applicationConnectors:
+  - type: http
+    port: 8445
+  adminConnectors:
+  - type: http
+    port: 8446
+
+logging:
+    type: external
+    
+zookeeperServerId: shZk_1
+      
+zookeeperConfig: 
+      zookeeperServers: localhost:2181
+      rootNode: shubham
+      processNodePrefix: shZk
+      sessionTimeout: 3000
